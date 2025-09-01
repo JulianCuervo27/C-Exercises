@@ -1,4 +1,4 @@
-# Structs en C
+  # Structs en C
 
 Un `struct` es una estructura que permite agrupar diferentes tipos de datos bajo un mismo nombre. Es útil para modelar objetos o entidades con varias características.
 
