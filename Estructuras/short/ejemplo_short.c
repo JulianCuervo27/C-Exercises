@@ -1,7 +1,24 @@
-#include <stdio.h> // Incluye la biblioteca estándar de entrada y salida
+#include <stdio.h>
 
-int main() { // Función principal
-    short edad = 25; // Declara una variable short 'edad' y le asigna el valor 25
-    printf("La edad almacenada en una variable short es: %d\n", edad); // Imprime el valor de la variable 'edad'
-    return 0; // Indica que el programa terminó correctamente
+// Solución Ejemplo 1
+// 1. Escribe un programa que almacene la edad de varias personas usando variables short.
+
+int main() {
+    short edad1, edad2, edad3;
+
+    printf("Ingresa la primera edad: ");
+    scanf("%hd", &edad1);
+
+    printf("Ingresa la segunda edad: ");
+    scanf("%hd", &edad2);
+
+    printf("Ingresa la tercera edad: ");
+    scanf("%hd", &edad3);
+
+    printf("\nLas edades ingresadas son:\n");
+    printf("Edad 1: %hd\n", edad1);
+    printf("Edad 2: %hd\n", edad2);
+    printf("Edad 3: %hd\n", edad3);
+
+    return 0;
 }
